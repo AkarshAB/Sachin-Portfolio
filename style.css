@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0031b7;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    margin: 20p;
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 40px;
+    color: #FFEAD2;
+    /* cursor: pointer; */
+}
+
+nav ul li a:hover {
+    color: #DBDFEA;
+}
+
+nav ul li a:active {
+    color: #ACB1D6;
+}
+
+
+#home {
+    background-image: url(https://www.sociochick.com/assets/uploads/2015/03/indian-cricket-iconic-photos-01.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    /* opacity: 0.8; */
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    left: 183px;
+    top: 150px;
+    color: white;
+}
+
+.iam {
+    font-size: 19px;
+}
+
+.sachin {
+    color: #FF671F;
+    font-size: 28px;
+}
+
+.ramesh {
+    color: white;
+    font-size: 28px;
+
+}
+
+.tendulkar {
+    color: green;
+    font-size: 28px;
+}
+
+.pic {
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid black; */
+
+}
+
+.bodyimg {
+    box-shadow: 3px 3px 4px;
+}
+
+.legend {
+    display: flex;
+    position: absolute;
+    left: 870px;
+    top: 120px;
+    color: #0031b7;
+
+}
+
+.mid {
+    display: flex;
+    position: relative;
+    background-color: #d8e2ff;
+
+}
+
+.content {
+    text-align: justify;
+    margin-top: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 2px 2px inset;
+    border: 1px solid black;
+}
+
+.vheading {
+    text-align: center;
+    /* border: 1px solid black; */
+    color: #0031b7;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#videos {
+    background-color: #d8e2ff;
+
+}
+
+.vmain {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 46px;
+    margin-bottom: 20px;
+}
+
+
+iframe {
+    box-shadow: 2px 2px 4px;
+}
+
+.achievements-container {
+    background-color: #d8e2ff;
+    padding-bottom: 50px;
+}
+
+.achievements-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.achievements-box {
+    /* border: 1px solid black; */
+    position: relative;
+    width: 250px;
+    background-color: #c5d3fc;
+    padding: 20px;
+    height: 170px;
+    text-align: center;
+    box-shadow: 1px 2px 2px inset;
+
+}
+
+.achievements-box-bottom {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 0%;
+    display: none;
+    padding: 20px;
+    text-align: start;
+
+}
+
+.achievements-box:hover {
+    box-shadow: 0px 0px 10px;
+    background-color: #d8e2ff;
+}
+
+.achievements-box:hover .achievements-box-bottom {
+    display: contents;
+    background-color: #d8e2ff;
+    box-shadow: 0px 0px 10px;
+}
+
+h3 {
+    color: #0031b7;
+}
+
+p b {
+    color: #0031b7;
+}
+
+.works-container {
+    background-color: #d8e2ff;
+    padding-bottom: 50px;
+}
+.works-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.works-box{
+    border: 1px solid darkblue;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 1px 2px 2px darkblue;
+}
+div a img{
+    margin-bottom: 20px;
+}
+
+.books{
+    text-decoration: none;
+}
+div a img:hover{
+    box-shadow: 1px 2px 2px;
+}
+.works-box:hover p{
+    color: red;
+}
+
+.contactus-container{
+    background-color: #d8e2ff;
+    padding-bottom: 50px;
+}
+.contactus-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maps{
+    width: 700px;
+    height: 500px;
+}
+.contactus-row2{
+    padding: 40px 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    color:#0031b7;
+    
+}
+
+.footer{
+    background-color: #0031b7;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
